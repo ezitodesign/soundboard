@@ -1,7 +1,7 @@
 <-- Screenshot Placeholder -->
 
-# Action Movie One Liners
-Best cheesy one-liners that the 80's - 90's have to offer.  
+# Paul Rudd Quotes
+Best of Paul Rudd
 
 #Citations
    * Sounds locations
