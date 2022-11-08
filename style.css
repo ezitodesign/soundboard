@@ -1,12 +1,20 @@
 /* Set Fonts and Resets */
 body,
 html {
-  background: gray;
+  background-image: url(Images/lookatus.png);
   margin: 0;
   overflow-x: hidden;
   padding: 0;
+  height: auto;
+  width: auto;
 }
 
+.png {
+max-width: auto;
+max-height: 100%;
+height: 100%;
+width: auto;
+}
 /* With Flexbox, Horizontally and vertically cneter */
 body {
   display: -webkit-box;
@@ -29,7 +37,7 @@ kbd {
 .sound {
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
-  color: #e2e2e2;
+  color: black;
 }
 
 /* Use CSS Grid to display keys */
@@ -53,7 +61,8 @@ kbd {
   /* Styling of keys */
   width: 10rem;
   text-align: center;
-  outline: 1px solid black;
+  background-color: whitesmoke;
+  border-radius: 10%;
   
   /* Change mouse pointer */
   cursor:pointer;
@@ -72,5 +81,5 @@ kbd {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
-  background: white;
+  background: black;
 }
